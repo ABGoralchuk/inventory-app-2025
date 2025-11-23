@@ -6,7 +6,7 @@ import pandas as pd
 # --- Page Config ---
 st.set_page_config(
     page_title="Lab Inventory Scanner",
-    page_icon="🧪",
+    page_icon="lab_icon.png",
     layout="centered"
 )
 
