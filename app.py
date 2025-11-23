@@ -10,6 +10,16 @@ st.set_page_config(
     layout="centered"
 )
 
+# --- Mobile Icon Fix ---
+# Inject HTML to try and force the mobile home screen icon
+ICON_URL = "https://raw.githubusercontent.com/ABGoralchuk/inventory-app-2025/main/lab_icon.png"
+st.markdown(f"""
+    <head>
+        <link rel="apple-touch-icon" href="{ICON_URL}">
+        <link rel="icon" type="image/png" href="{ICON_URL}">
+    </head>
+    """, unsafe_allow_html=True)
+
 # --- Custom CSS for Premium Feel ---
 st.markdown("""
     <style>
