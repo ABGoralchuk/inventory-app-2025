@@ -1,0 +1,7 @@
+.DS_Store
+.venv/
+__pycache__/
+.streamlit/secrets.toml
+*.json
+*.rtf
+app_base.py
