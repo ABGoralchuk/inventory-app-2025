@@ -15,8 +15,10 @@ st.set_page_config(
 ICON_URL = "https://raw.githubusercontent.com/ABGoralchuk/inventory-app-2025/main/lab_icon.png"
 st.markdown(f"""
     <head>
-        <link rel="apple-touch-icon" href="{ICON_URL}">
-        <link rel="icon" type="image/png" href="{ICON_URL}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{ICON_URL}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{ICON_URL}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{ICON_URL}">
+        <link rel="manifest" href="https://raw.githubusercontent.com/ABGoralchuk/inventory-app-2025/main/manifest.json">
     </head>
     """, unsafe_allow_html=True)
 
