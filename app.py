@@ -32,7 +32,7 @@ st.markdown("""
     
     /* Top Border / Brand Line */
     header {
-        border-top: 50px solid #004C9B; /* TMU Blue */
+        border-top: 45px solid #004C9B; /* TMU Blue */
     }
     
     /* Headers - Academic Style */
