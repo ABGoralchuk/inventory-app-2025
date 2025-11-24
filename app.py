@@ -32,7 +32,7 @@ st.markdown("""
     
     /* Top Border / Brand Line */
     header {
-        border-top: 5px solid #004C9B; /* TMU Blue */
+        border-top: 20px solid #004C9B; /* TMU Blue */
     }
     
     /* Headers - Academic Style */
@@ -99,6 +99,10 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# --- Title & Branding ---
+# --- Title & Branding ---
+# --- Title & Branding ---
+# --- Title & Branding ---
 # --- Title & Branding ---
 st.markdown("<h1>Food and Soft Materials Research Group</h1>", unsafe_allow_html=True)
 st.markdown("<div class='lab-subtitle'>Inventory System</div>", unsafe_allow_html=True)
